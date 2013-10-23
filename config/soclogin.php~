@@ -1,0 +1,38 @@
+<?php
+
+defined('SYSPATH') OR die('No direct access allowed.');
+#Файл настроек вызов настройки echo Kohana::$config->load('fantany.vkID')
+if ($_SERVER['HTTP_HOST'] == 'fantany.ru') {
+    return array
+        (
+        'vkID' => '3934036',
+        'vkSKey' => 'el38U2mNrpAFbeXlyRqt',
+        'odklID' => '174846720',
+        'odklSecret' => '3CE0A17F6DF33129C1FEC86C',
+        'odklAPkey' => 'CBAEPMGLABABABABA',
+        'fbID' => '494509907251787',
+        'networks' => array(
+            'odnoklassniki' => 0,
+            'vkontakte' => 0,
+            'facebook' => 0,
+            'twitter' => 0
+        )
+    );
+} else {
+    return array
+        (
+        'vkID' => '3933037',
+        'vkSKey' => '5bpD913fcG4uL1XOpLHU',
+        'odklID' => '174846720',
+        'odklSecret' => '3CE0A17F6DF33129C1FEC86C',
+        'odklAPkey' => 'CBAEPMGLABABABABA',
+        'fbID' => '494509907251787',
+        'networks' => array(
+            'odnoklassniki' => 0,
+            'vkontakte' => 0,
+            'facebook' => 0,
+            'twitter' => 0
+        )
+    );
+}
+?>
