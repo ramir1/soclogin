@@ -4,10 +4,10 @@
         Привяжите свой аккаунт к соцсети для быстрого входа на сайт:
         <br>
         <ul class="">
-            <? if (!$networks['vkontakte']) { ?> <li><a class="vk_button login_vk" title="ВКонтакте" rel="nofollow" href="#" alt="Vkontakte"></a></li><? } ?>
-            <? if (!$networks['odnoklassniki']) { ?>  <li><a class="ok_button login_odkl" title="Одноклассники" rel="nofollow" href="#"></a></li><? } ?>
-            <? if (!$networks['facebook']) { ?> <li><a class="fb_button login_fb" title="Facebook" rel="nofollow" href="#"></a></li><? } ?>
-            <? if (!$networks['twitter']) { ?> <li><a class="tw_button login_twitter" title="Twitter" rel="nofollow" href="#"></a></li><? } ?>
+            <? if (!$networks['vkontakte']) { ?> <li><a class="vk_button login_vk" title="ВКонтакте" rel="nofollow" href="#" alt="Vkontakte">Вконтакте</a></li><? } ?>
+            <? if (!$networks['odnoklassniki']) { ?>  <li><a class="ok_button login_odkl" title="Одноклассники" rel="nofollow" href="#">Одноклассники</a></li><? } ?>
+            <? if (!$networks['facebook']) { ?> <li><a class="fb_button login_fb" title="Facebook" rel="nofollow" href="#">Facebook</a></li><? } ?>
+            <? if (!$networks['twitter']) { ?> <li><a class="tw_button login_twitter" title="Twitter" rel="nofollow" href="#">Twitter</a></li><? } ?>
         </ul>
     </div>
 
@@ -15,10 +15,10 @@
         На данный момент у Вас привязаны такие соцсети:
         <br>
         <ul class="">
-            <? if ($networks['vkontakte']) { ?> <li><a class="vk_button soclogin_dislogin_vk" title="ВКонтакте" rel="nofollow" href="/soclogin/dislogin/?network=vkontakte" alt="Vkontakte"></a></li><? } ?>
-            <? if ($networks['odnoklassniki']) { ?>  <li><a class="ok_button soclogin_dislogin_odkl" title="Одноклассники" rel="nofollow" href="/soclogin/dislogin/?network=odnoklassniki"></a></li><? } ?>
-            <? if ($networks['facebook']) { ?> <li><a class="fb_button soclogin_dislogin_fb" title="Facebook" rel="nofollow" href="/soclogin/dislogin/?network=facebook"></a></li><? } ?>
-            <? if ($networks['twitter']) { ?> <li><a class="tw_button soclogin_dislogin_twitter" title="Twitter" rel="nofollow" href="/soclogin/dislogin/?network=twitter"></a></li><? } ?>
+            <? if ($networks['vkontakte']) { ?> <li><a class="vk_button soclogin_dislogin_vk" title="ВКонтакте" rel="nofollow" href="/soclogin/dislogin/?network=vkontakte" alt="Vkontakte">ВКонтакте</a></li><? } ?>
+            <? if ($networks['odnoklassniki']) { ?>  <li><a class="ok_button soclogin_dislogin_odkl" title="Одноклассники" rel="nofollow" href="/soclogin/dislogin/?network=odnoklassniki">Одноклассники</a></li><? } ?>
+            <? if ($networks['facebook']) { ?> <li><a class="fb_button soclogin_dislogin_fb" title="Facebook" rel="nofollow" href="/soclogin/dislogin/?network=facebook">Facebook</a></li><? } ?>
+            <? if ($networks['twitter']) { ?> <li><a class="tw_button soclogin_dislogin_twitter" title="Twitter" rel="nofollow" href="/soclogin/dislogin/?network=twitter">Twitter</a></li><? } ?>
         </ul>
     </div>
 <? } else { ?>
@@ -28,10 +28,10 @@
     <div class="soclogin log-in">
         Зарегистрируйтесь или войдите с помощью соцсетей<br>
         <ul class="">
-            <li><a class="vk_button login_vk" title="ВКонтакте" rel="nofollow" href="/soclogin/login/?network=vkontakte" alt="Vkontakte"></a></li>
-            <li><a class="ok_button login_odkl" title="Одноклассники" rel="nofollow" href="/soclogin/login/?network=odnoklassniki"></a></li>
-            <li><a class="fb_button login_fb" title="Facebook" rel="nofollow" href="/soclogin/login/?network=facebook"></a></li>
-            <li><a class="tw_button login_twitter" title="Twitter" rel="nofollow" href="/soclogin/login/?network=twitter"></a></li>
+            <li><a class="vk_button login_vk" title="ВКонтакте" rel="nofollow" href="/soclogin/login/?network=vkontakte" alt="Vkontakte">ВКонтакте</a></li>
+            <li><a class="ok_button login_odkl" title="Одноклассники" rel="nofollow" href="/soclogin/login/?network=odnoklassniki">Одноклассники</a></li>
+            <li><a class="fb_button login_fb" title="Facebook" rel="nofollow" href="/soclogin/login/?network=facebook">Facebook</a></li>
+            <li><a class="tw_button login_twitter" title="Twitter" rel="nofollow" href="/soclogin/login/?network=twitter">Twitter</a></li>
         </ul>
     </div>
 <? }
